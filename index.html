@@ -1,19 +1,16 @@
-<!-- HTML for static distribution bundle build -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Swagger UI</title>
-    <link rel="stylesheet" type="text/css" href="dist/swagger-ui.css" />
-    <link rel="stylesheet" type="text/css" href="dist/index.css" />
-    <link rel="icon" type="image/png" href="dist/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="dist/favicon-16x16.png" sizes="16x16" />
-  </head>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>API Portal</title>
+</head>
+<body>
+  <h1>API Portal</h1>
 
-  <body>
-    <div id="swagger-ui"></div>
-    <script src="dist/swagger-ui-bundle.js" charset="UTF-8"> </script>
-    <script src="dist/swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
-    <script src="dist/swagger-initializer.js" charset="UTF-8"> </script>
-  </body>
+  <ul>
+    <li><a href="swagger.html?spec=apis/sample1/sample1.yaml">Auth Login API</a></li>
+    <li><a href="swagger.html?spec=apis/sample2/sample2.yaml">User Profile API</a></li>
+  </ul>
+
+</body>
 </html>
